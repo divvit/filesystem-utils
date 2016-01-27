@@ -1,0 +1,41 @@
+{
+  "name": "@divvit/filesystem-utils",
+  "description": "commons function for file system helper",
+  "version": "0.1.0",
+  "main": "./src/filesystem-helper",
+  "bin": {
+    "filesystem-helper": "./bin/filesystem-helper"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divvit/filesystem-utils.git"
+  },
+  "keywords": [
+    "pdf",
+    "html",
+    "converter"
+  ],
+  "author": "Anh Nguyen <anh@divvit.com> (https://wwww.divvit.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/divvit/filesystem-utils/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "homepage": "https://github.com/divvit/filesystem-utils#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "crypto": "latest",
+    "debug": "latest"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
