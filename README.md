@@ -17,7 +17,7 @@ npm install @divvit/filesystem-utils
 
 ## Conversion API
 
-The API exposes a single function 'convert'. Using this function, you can input a multitude of settings, which are further specified below:
+The API exposes any functions. Using this function, you can look further specified below:
 
 ```` javascript
 var filehelper = require('@divvit/filesystem-utils');
